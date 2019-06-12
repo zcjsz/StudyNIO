@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaNIO.iml" filepath="$PROJECT_DIR$/JavaNIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyNIO.iml" filepath="$PROJECT_DIR$/StudyNIO.iml" />
     </modules>
   </component>
 </project>

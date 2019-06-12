@@ -159,7 +159,7 @@
   <component name="RunManager" selected="Application.TestBlockNIO">
     <configuration name="CharsetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mynio.CharsetTest" />
-      <module name="JavaNIO" />
+      <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mynio.*" />
@@ -172,7 +172,7 @@
     </configuration>
     <configuration name="GatherWrites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mynio.GatherWrites" />
-      <module name="JavaNIO" />
+      <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mynio.*" />
@@ -185,7 +185,7 @@
     </configuration>
     <configuration name="TestBlockNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="webconn.TestBlockNIO" />
-      <module name="JavaNIO" />
+      <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="webconn.*" />
@@ -197,7 +197,7 @@
       </method>
     </configuration>
     <configuration name="TestBlockNIO.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNIO" />
+      <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="webconn.*" />
@@ -213,7 +213,7 @@
       </method>
     </configuration>
     <configuration name="TestBlockNIO.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNIO" />
+      <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="webconn.*" />
@@ -224,6 +224,53 @@
       <option name="MAIN_CLASS_NAME" value="webconn.TestBlockNIO" />
       <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="StudyNIO" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="StudyNIO" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
