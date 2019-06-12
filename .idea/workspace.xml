@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="059bb101-68e0-45d6-9f92-2aab18d05e37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/data/OutAFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/data/OutBFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/data/OutCFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/data/TestFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/mynio/CharsetTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/mynio/FileChannelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/mynio/GatherWrites.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/mynio/ScatterReads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/webconn/ClientRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/webconn/IServerClientRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/webconn/ServerRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/webconn/TestBlockNIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StudyNIO/webconn/TestNonBlockNIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webconn/IServerClientRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webconn/ServerClientThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNIO/META-INF/JavaNIO.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNIO/mynio/FileChannelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNIO/mynio/FileChannelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNIO/mynio/GatherWrites.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNIO/mynio/GatherWrites.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaNIO/mynio/ScatterReads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaNIO/mynio/ScatterReads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webconn/TestBlockNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/webconn/TestBlockNIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mynio/FileChannelTest.java">
+        <entry file="file://$PROJECT_DIR$/src/webconn/TestBlockNIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="1955">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,13 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webconn/TestBlockNIO.java">
+        <entry file="file://$PROJECT_DIR$/src/webconn/ServerClientThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -48,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="2024">
+              <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,6 +71,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,6 +93,11 @@
         <option value="$PROJECT_DIR$/src/mynio/CharsetTest.java" />
         <option value="$PROJECT_DIR$/src/data/OutAFile.txt" />
         <option value="$PROJECT_DIR$/src/webconn/TestBlockNIO.java" />
+        <option value="$PROJECT_DIR$/src/webconn/ServerClientRunner.java" />
+        <option value="$PROJECT_DIR$/src/webconn/ServerClientInf.java" />
+        <option value="$PROJECT_DIR$/src/webconn/IServerClient.java" />
+        <option value="$PROJECT_DIR$/src/webconn/IServerClientRunner.java" />
+        <option value="$PROJECT_DIR$/src/webconn/ServerClientThread.java" />
         <option value="$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java" />
       </list>
     </option>
@@ -99,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,11 +132,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webconn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudyNIO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyNIO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webconn" type="462c0819:PsiDirectoryNode" />
+              <item name="ServerClientThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,35 +178,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBlockNIO">
-    <configuration name="CharsetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mynio.CharsetTest" />
-      <module name="StudyNIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mynio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatherWrites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mynio.GatherWrites" />
-      <module name="StudyNIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mynio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestNonBlockNIO">
     <configuration name="TestBlockNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="webconn.TestBlockNIO" />
+      <module name="StudyNIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webconn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webconn.TestNonBlockNIO" />
       <module name="StudyNIO" />
       <extension name="coverage">
         <pattern>
@@ -222,6 +231,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="webconn" />
       <option name="MAIN_CLASS_NAME" value="webconn.TestBlockNIO" />
+      <option name="METHOD_NAME" value="server" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockNIO.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyNIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webconn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webconn" />
+      <option name="MAIN_CLASS_NAME" value="webconn.TestNonBlockNIO" />
       <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -275,13 +300,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestBlockNIO" />
+      <item itemvalue="Application.TestNonBlockNIO" />
+      <item itemvalue="JUnit.TestBlockNIO.client" />
+      <item itemvalue="JUnit.TestBlockNIO.server" />
+      <item itemvalue="JUnit.TestNonBlockNIO.server" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestNonBlockNIO" />
         <item itemvalue="Application.TestBlockNIO" />
+        <item itemvalue="JUnit.TestNonBlockNIO.server" />
         <item itemvalue="JUnit.TestBlockNIO.client" />
         <item itemvalue="JUnit.TestBlockNIO.server" />
-        <item itemvalue="Application.CharsetTest" />
-        <item itemvalue="Application.GatherWrites" />
       </list>
     </recent_temporary>
   </component>
@@ -305,12 +337,14 @@
     <history-entry file="TestBlockNIO_server - 2019.06.11 at 17h 14m 56s.xml">
       <configuration name="TestBlockNIO.server" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestNonBlockNIO_server - 2019.06.12 at 11h 18m 37s.xml">
+      <configuration name="TestNonBlockNIO.server" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" weight="0.2642857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.2638508" />
       <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.2495886" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,8 +353,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33045357" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -387,12 +421,44 @@
     <entry file="file://$PROJECT_DIR$/src/data/OutAFile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaNIO.iml">
+    <entry file="file://$PROJECT_DIR$/StudyNIO.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_211/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="398" column="40" lean-forward="true" selection-start-line="398" selection-start-column="40" selection-end-line="398" selection-end-column="40" />
+          <folding>
+            <element signature="e#12489#12490#0" expanded="true" />
+            <element signature="e#12528#12529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webconn/IServerClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mynio/FileChannelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-8">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -400,20 +466,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///opt/jdk1.8.0_211/src.zip!/java/nio/channels/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="296" column="24" selection-start-line="296" selection-start-column="24" selection-end-line="296" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/webconn/TestBlockNIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+        <state relative-caret-position="1955">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/webconn/ServerClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_211/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding>
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/webconn/TestNonBlockNIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="2024">
+          <caret line="88" column="59" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -23,8 +23,9 @@ import java.nio.file.StandardOpenOption;
  * 3. 选择器(Selector)：是 SelectableChannel 的多路复用器，用于监控 SelectableChannel 的 IO 状况
  */
 
-public class TestBlockNIO {
+public class TestBlockNIO implements IServerClientRunner {
 
+    @Override
     public void client() throws IOException {
 
         // 1. 建立 FileChannel
@@ -58,7 +59,7 @@ public class TestBlockNIO {
         
     }
 
-
+    @Override
     public void server() throws IOException {
 
         // 1. 建立 FileChannel
@@ -101,11 +102,11 @@ public class TestBlockNIO {
 
         TestBlockNIO testBlockNIO = new TestBlockNIO();
 
-        ServerThread serverThread = new ServerThread(testBlockNIO);
-        ClientThread clientThread = new ClientThread(testBlockNIO);
+        ServerRunner serverRunner = new ServerRunner(testBlockNIO);
+        ClientRunner clientRunner = new ClientRunner(testBlockNIO);
 
-        Thread sth = new Thread(serverThread);
-        Thread cth = new Thread(clientThread);
+        Thread sth = new Thread(serverRunner);
+        Thread cth = new Thread(clientRunner);
 
         sth.start();
 
@@ -115,40 +116,4 @@ public class TestBlockNIO {
     }
 
 
-}
-
-
-class ServerThread implements Runnable {
-    private TestBlockNIO testBlockNIO = null;
-    ServerThread(TestBlockNIO testBlockNIO) {
-        this.testBlockNIO = testBlockNIO;
-    }
-    @Override
-    public void run() {
-        try {
-            System.out.println("server start");
-            testBlockNIO.server();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-}
-
-
-class ClientThread implements Runnable {
-    private TestBlockNIO testBlockNIO = null;
-    ClientThread(TestBlockNIO testBlockNIO) {
-        this.testBlockNIO = testBlockNIO;
-    }
-    @Override
-    public void run() {
-        try {
-            System.out.println("client start");
-            Thread.sleep(3000); // 模拟客户端阻塞
-            System.out.println("client ready");
-            testBlockNIO.client();
-        } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 }
